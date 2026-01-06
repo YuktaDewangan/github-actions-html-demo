@@ -1,0 +1,9 @@
+name: HTML Test
+
+on: [push]
+
+jobs:
+  test-html:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
